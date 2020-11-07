@@ -1,6 +1,16 @@
 # Test_Mich
 code source of test Mich
 
+
+------> Tools :
+
+Step 1 : sudo apt-get install cmake
+
+Step 2 : sudo apt-get install git
+
+Step 3 : sudo apt-get install mingw-w64
+
+
 ------> Compilation et installation :
 
 Step 1 : git clone https://github.com/Mohamed-Amine-Mich/Test_Mich.git

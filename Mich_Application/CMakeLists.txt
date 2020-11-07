@@ -1,4 +1,6 @@
 
+cmake_minimum_required(VERSION 2.8)
+
 add_executable(${CMAKE_PROJECT_NAME}_exec main.cpp)
 target_link_libraries(${CMAKE_PROJECT_NAME}_exec ${CMAKE_PROJECT_NAME}_lib)
 

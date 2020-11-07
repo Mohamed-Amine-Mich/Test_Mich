@@ -1,5 +1,5 @@
 project(Project_Mich)
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 2.8)
 
 add_subdirectory(Mich_Application)
 add_subdirectory(Mich_Library)
