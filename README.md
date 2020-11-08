@@ -22,14 +22,14 @@ Step 3 : git submodule update --init --recursive
 
 Step 4 : cd build
 
-Step 5 : cmake ..
+Step 5 : cmake -DCMAKE_CONFIGURATION_TYPES=Debug ..  (you can choose Debug | Release)
 
 Step 6 : make install
 
 
     launch the soft :
 
-Step 1 : cd build/bin
+Step 1 : cd build/bin/Debug
 
 Step 2 : ./Project_Mich_exe (lancer le binaire)
 
@@ -54,21 +54,25 @@ Step 2 : cd Test_Mich && git checkout develop (if not develop)
 
 Step 3 : git submodule update --init --recursive
 
-Step 4 : launch CMake-3.19 and then configure, after that : click on "Configure", "Generate" and "Open Project"
+Step 4 : launch CMake-3.19 and then configure (as shown in the figure below)
 
 ![configure_CMake](/ressources/screenShot_CMake_configure.jpg?raw=true "Title")
 
-Step 5 : build the solution (as shown in the figure below), and then build the INSTALL project in this solution to install exec in bin folder.
+![configure_CMake](/ressources/screenShot_CMake_configure_.jpg?raw=true "Title")
+
+Step 5 : after that : click on "Configure", "Generate" and "Open Project"
+
+Step 6 : build the solution (as shown in the figure below), and then build the INSTALL project in this solution to install exec in bin folder.
 
 ![build_solution](/ressources/screenShot_build_solution.jpg?raw=true "Title")
 
 
     Launch the soft :
 
-Step 1 : cd Test_Mich\build\bin
+Step 1 : cd Test_Mich\build\bin\Debug
 
-Step 2 : Project_Mich_exe (lancer le binaire)
+Step 2 : Project_Mich_exe.exe (lancer le binaire)
 
-Step 3 : Project_Mich_tu (lancer les tests unitaires)
+Step 3 : Project_Mich_tu.exe (lancer les tests unitaires)
 
 
