@@ -3,7 +3,7 @@
 
 ---------------------------------------------------> For Linux <-----------------------------------------------
 
-- Tools installation :
+    Tools installation :
 
 Step 1 : sudo apt-get install -y cmake
 
@@ -12,7 +12,7 @@ Step 2 : sudo apt-get install -y git
 Step 3 : sudo apt-get install -y mingw-w64
 
 
-- Compilation :
+    Compilation :
 
 Step 1 : git clone https://github.com/Mohamed-Amine-Mich/Test_Mich.git
 
@@ -27,7 +27,7 @@ Step 5 : cmake ..
 Step 6 : make install
 
 
-- Lancer le soft : 
+    launch the soft :
 
 Step 1 : cd build/bin
 
