@@ -13,10 +13,15 @@ struct Node {
 
 class Calcul {
 public:
-  int add(int a, int b);
+  std::list<unsigned int> findingShortestWay();
   bool parseJsonFile(std::string filePath);
 
+private:
+  unsigned int searchBestDistance(std::list<Node> nodeList);
+
 protected:
+  unsigned int m_totalArcs;
+  unsigned int m_totalNode;
   std::list<Node> m_nodeList;
   std::vector<std::list<Node>> m_nodeBlocs;
 };

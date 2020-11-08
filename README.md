@@ -1,7 +1,17 @@
 # Test_Mich
 
+Introduction : 
 
----------------------------------------------------> For Linux <-----------------------------------------------
+Project_Mich_exe : Ce logiciel permet de chercher le chemin le plus rapide sur un graphe de noeud (on suivant l'arc le plus faible).
+Il prend un fichier json en input, et en output on affiche le chemin le plus rapide sous forme de liste de node (p.j: /ressources/screenShot_result_linux|Windows.jpg).
+
+
+Project_Mich_tu : Aussi, on a deux tests unitaires permettent de tester les algos.
+
+Ci-dessous les étapes de configuration et installation.
+
+
+--------------------------------------------------- For Linux -----------------------------------------------
 
     Tools installation :
 
@@ -38,7 +48,7 @@ Step 3 : ./Project_Mich_tu (lancer les tests unitaires)
 
 
 
----------------------------------------------------> For Windows <-----------------------------------------------
+--------------------------------------------------- For Windows -----------------------------------------------
 
     Tools installation :
 
