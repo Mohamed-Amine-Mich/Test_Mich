@@ -1,9 +1,9 @@
 # Test_Mich
 
 
-For Linux : 
+------> For Linux : 
 
-------> Tools :
+- Tools :
 
 Step 1 : sudo apt-get install -y cmake
 
@@ -12,7 +12,7 @@ Step 2 : sudo apt-get install -y git
 Step 3 : sudo apt-get install -y mingw-w64
 
 
-------> Compilation et installation :
+- Compilation et installation :
 
 Step 1 : git clone https://github.com/Mohamed-Amine-Mich/Test_Mich.git
 
@@ -27,7 +27,7 @@ Step 5 : cmake ..
 Step 6 : make install
 
 
------> Lancer le soft : 
+- Lancer le soft : 
 
 Step 1 : cd build/bin
 
@@ -38,6 +38,6 @@ Step 3 : ./Project_Michelin_tu (lancer les tests unitaires)
 
 
 
-For Windows : 
+------> For Windows : 
 
 
