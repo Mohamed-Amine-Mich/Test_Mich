@@ -63,3 +63,12 @@ Step 5 : build the solution (as shown in the figure below), and then build the I
 ![build_solution](/ressources/screenShot_build_solution.jpg?raw=true "Title")
 
 
+    Launch the soft :
+
+Step 1 : cd Test_Mich\build\bin
+
+Step 2 : Project_Michelin_exe (lancer le binaire)
+
+Step 3 : Project_Michelin_tu (lancer les tests unitaires)
+
+
