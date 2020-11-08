@@ -54,7 +54,7 @@ Step 2 : cd Test_Mich && git checkout develop (if not develop)
 
 Step 3 : git submodule update --init --recursive
 
-Step 4 : launch CMake-3.19 and then configure.
+Step 4 : launch CMake-3.19 and then configure, after that : click on "Configure", "Generate" and "Open Project"
 
 ![configure_CMake](/ressources/screenShot_CMake_configure.jpg?raw=true "Title")
 
