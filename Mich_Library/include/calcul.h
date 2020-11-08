@@ -8,7 +8,7 @@
 struct Node {
   float distance_km;
   float co2_g;
-  uint vertex_id;
+  unsigned int vertex_id;
 };
 
 class Calcul {
