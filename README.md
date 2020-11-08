@@ -31,6 +31,6 @@ Step 6 : make install
 
 Step 1 : cd build/bin
 
-Step 2 : ./Project_Michelin_exec (lancer le binaire)
+Step 2 : ./Project_Michelin_exe (lancer le binaire)
 
 Step 3 : ./Project_Michelin_tu (lancer les tests unitaires)
