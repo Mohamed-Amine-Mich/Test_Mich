@@ -58,4 +58,8 @@ Step 4 : launch CMake-3.19 and then configure, after that : click on "Configure"
 
 ![configure_CMake](/ressources/screenShot_CMake_configure.jpg?raw=true "Title")
 
+Step 5 : build the solution (as shown in the figure below), and then build the INSTALL project in this solution.
+
+![build_solution](/ressources/screenShot_build_solution.jpg?raw=true "Title")
+
 
