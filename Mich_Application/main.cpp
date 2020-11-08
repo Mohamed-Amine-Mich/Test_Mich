@@ -6,4 +6,5 @@ int main() {
   Calcul calc;
   std::cout << "----------------> : \n"
             << calc.parseJsonFile("graph.json") << "\n";
+  system("pause");
 }
