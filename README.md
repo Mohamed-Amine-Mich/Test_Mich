@@ -1,7 +1,7 @@
 # Test_Mich
 
 
-------> For Linux : 
+---------------------------------------------------> For Linux <-----------------------------------------------
 
 - Tools installation :
 
@@ -38,6 +38,24 @@ Step 3 : ./Project_Michelin_tu (lancer les tests unitaires)
 
 
 
-------> For Windows : 
+---------------------------------------------------> For Windows <-----------------------------------------------
+
+    Tools installation :
+
+Step 1 : installer "CMake 3.19.0" and GIT (last version)
+
+Step 2 : installer "Microsoft Visual Studio Community 2019"
+
+    Compilation :
+
+Step 1 : git clone https://github.com/Mohamed-Amine-Mich/Test_Mich.git
+
+Step 2 : cd Test_Mich && git checkout develop (if not develop)
+
+Step 3 : git submodule update --init --recursive
+
+Step 4 : launch CMake-3.19 and then configure.
+
+![configure_CMake](/ressources/screenShot_CMake_configure.jpg?raw=true "Title")
 
 
