@@ -4,11 +4,11 @@ code source of test Mich
 
 ------> Tools :
 
-Step 1 : sudo apt-get install cmake
+Step 1 : sudo apt-get install -y cmake
 
-Step 2 : sudo apt-get install git
+Step 2 : sudo apt-get install -y git
 
-Step 3 : sudo apt-get install mingw-w64
+Step 3 : sudo apt-get install -y mingw-w64
 
 
 ------> Compilation et installation :
